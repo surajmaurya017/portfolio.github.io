@@ -425,6 +425,54 @@ section {
   background-color: #149ddd;
 }
 
+/* Skills — category + tag layout (resume-style technical stack) */
+.skills .skill-category-block {
+  margin-bottom: 1.75rem;
+}
+
+.skills .skill-category-block:last-child {
+  margin-bottom: 0;
+}
+
+.skills .skill-category-title {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e4edf9;
+  letter-spacing: 0.02em;
+}
+
+.skills .skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills .skill-tag {
+  display: inline-block;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #173b6c;
+  background: #fff;
+  border: 1px solid #dce8f8;
+  border-radius: 6px;
+  line-height: 1.35;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 1px 2px rgba(20, 157, 221, 0.06);
+}
+
+.skills .skill-tag:hover {
+  color: #fff;
+  background: #149ddd;
+  border-color: #149ddd;
+  box-shadow: 0 4px 12px rgba(20, 157, 221, 0.25);
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
